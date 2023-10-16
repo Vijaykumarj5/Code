@@ -7,6 +7,10 @@ name = name.strip()
 # capitaliaze
 name = name.title() 
 
+# One line for above code
+
+name = input("what is your name? ").strip().title()
+
 #say hello to user 
 print("Hello "+ name)
 
